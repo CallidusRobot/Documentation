@@ -11,7 +11,8 @@ Paket darf höchstens 100ms übertragen werden. Danach Reset und neues Paket.
 - CRC-16 (2B)
 
 ## Types
-High-Bit: Command/Status
+- High-Bit 0: Command
+- High-Bit 1: Status
 
 ### Commands
 Zero is reset
