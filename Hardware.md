@@ -11,6 +11,16 @@
 - 5V power supply @ 2.5A: Teensy, RGB-DMD, WS2812
 - 3V3 power supply @ TBDmA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
 
+# Pin allocation
+- SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
+- I2C0: 2 (SDA0, SCL0)
+- UART0: 2 (RX0, TX0)
+- UART1: 2 (RX1, TX1)
+- WS2812: 1 (17/17-5V)
+- Motor driver: 2 (PWM) + 5 (GPIO)
+- Heartbeat LED: 1 (opt.)
+- Firmware update sw: 1 (opt.)
+
 ## TODO
 - Check for I2C collisions and check req'd # of pins
 - Check how much current is needed on 3V3
