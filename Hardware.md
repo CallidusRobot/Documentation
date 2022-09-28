@@ -4,6 +4,9 @@
 - Magnetometer (I2C0)
 - WiFi (UART0)
 - Sound-Player (UART1)
+- Multi-target sensor VL53L3X (I2C0)
+
+TODO: Check for I2C collisions and check req'd # of pins
 
 ## RFID
 SPI
@@ -46,4 +49,9 @@ UART @ 9600 8N1
 - TX
 - 3V3
 
+## Multi-target sensor VL53L3X
+I2C
 
+- SDA
+- SCL
+- 3V3
