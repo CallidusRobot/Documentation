@@ -15,13 +15,13 @@
 - SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
 - I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
-- UART1: 2 (RX1, TX1)
+- UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 1 (17/17-5V)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Heartbeat LED: 1 (opt.)
 - Firmware update sw: 1 (opt.)
 
-Total used/available: 22/23 (~1 left)
+Total used/available: 23/23 (all used)
 
 ## TODO
 - Check for I2C collisions and check req'd # of pins
