@@ -7,6 +7,8 @@
 - Sound-Player (UART1)
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
+- 5V power supply @ 2.5A
+- 3.3V power supply @ 500mA
 
 TODO: Check for I2C collisions and check req'd # of pins
 
@@ -30,10 +32,10 @@ https://www.berrybase.de/adafruit-is31fl3741-13x9-pwm-rgb-led-matrix-treiber
 
 - SDA
 - SCL
-- Power at 5V (looks better) and use I2C level shifter or power at 3V3
+- Power at 5V (looks better) and use I2C level shifter (could be powered at 3V3, but high power consumption is bad)
 
 ## WS2812
-WS2812 (17-5V)
+WS2812 (17-5V), Protection series resistor 330R, 100-1000uF decoupling
 
 - OUT
 - 5V
