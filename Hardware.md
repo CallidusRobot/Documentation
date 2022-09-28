@@ -21,6 +21,8 @@
 - Heartbeat LED: 1 (opt.)
 - Firmware update sw: 1 (opt.)
 
+Total used/available: 22/23 (~1 left)
+
 ## TODO
 - Check for I2C collisions and check req'd # of pins
 - Check how much current is needed on 3V3
