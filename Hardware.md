@@ -24,7 +24,7 @@
 Total used/available: 23/23 (all used)
 
 ## TODO
-- Check for I2C collisions and check req'd # of pins
+- Check for I2C collisions
 - Check how much current is needed on 3V3
 - Design schematics
 - Buy level-shifters, capacitors, connectors, 5V and 3V3 regulators
