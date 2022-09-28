@@ -7,6 +7,7 @@
 - Sound-Player (UART1)
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
+- Line tracker (GPIO)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Teensy, RGB-DMD, WS2812
 - 3V3 power supply @ TBDmA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
@@ -18,8 +19,8 @@
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 1 (17/17-5V)
 - Motor driver: 2 (PWM) + 5 (GPIO)
-- Heartbeat LED: 1 (opt.)
-- Firmware update sw: 1 (opt.)
+- Line tracker: 1 (GPIO)
+- Heartbeat LED: 1 (Pin 13)
 
 Total used/available: 23/23 (all used)
 
@@ -107,3 +108,7 @@ https://www.berrybase.de/sparkfun-motor-treiber-dual-tb6612fng-mit-headern
 - STBY
 - 3V3
 - 8V
+
+## Line tracker
+- Probabaly one signal pin
+- TBD
