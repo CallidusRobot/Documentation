@@ -7,11 +7,16 @@
 - Sound-Player (UART1)
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
-- Battery supply: 5V and 3.3V regulators, Motor-Driver (motor power)
+- Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Teensy, RGB-DMD, WS2812
-- 3.3V power supply @ 500mA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
+- 3V3 power supply @ TBDmA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
 
-TODO: Check for I2C collisions and check req'd # of pins
+## TODO
+- Check for I2C collisions and check req'd # of pins
+- Check how much current is needed on 3V3
+- Buy 5V and 3V3 regulators
+- Design PCB
+- Order PCB
 
 ## RFID
 SPI
