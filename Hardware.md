@@ -1,8 +1,9 @@
 # Hardware
-- RFID
-- RGB-DMD
-- Magnetometer
-- Sound-Player
+- RFID (SPI0)
+- RGB-DMD (I2C0)
+- Magnetometer (I2C0)
+- WiFi (UART0)
+- Sound-Player (UART1)
 
 ## RFID
 SPI
@@ -29,6 +30,13 @@ I2C
 
 - SDA
 - SCL
+- 3V3
+
+## WiFi
+UART, Firmware update passthrough
+
+- RX
+- TX
 - 3V3
 
 ## Sound Player
