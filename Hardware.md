@@ -12,7 +12,10 @@
 - 5V power supply @ 2.5A: Teensy, RGB-DMD, WS2812
 - 3V3 power supply @ TBDmA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
 
-# Pin allocation
+## Block diagram
+![Block diagram](Block%20diagram.png)
+
+## Pin allocation
 - SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
 - I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
