@@ -1,7 +1,7 @@
 # Hardware
 - RFID (SPI0)
 - RGB-DMD (I2C0)
-- WS2812 (17-5V)
+- WS2812 (GPIO level shifted)
 - Magnetometer (I2C0)
 - WiFi (UART0)
 - Sound-Player (UART1)
@@ -9,8 +9,8 @@
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (GPIO)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
-- 5V power supply @ 2.5A: Teensy, RGB-DMD, WS2812
-- 3V3 power supply @ TBDmA: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
+- 5V power supply @ 2.5A: RGB-DMD, WS2812
+- 3V3 power supply @ TBDmA: Raspberry Pi Pico, RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
 
 ## Block diagram
 ![Block diagram](Block%20diagram.png)
@@ -20,12 +20,12 @@
 - I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
-- WS2812: 1 (17/17-5V)
+- WS2812: 1 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
-- Line tracker: 1 (GPIO)
-- Heartbeat LED: 1 (Pin 13)
+- Line tracker: 2 (GPIO)
+- Heartbeat LED: 1 (Pin 25 internal)
 
-Total used/available: 23/23 (all used)
+Total used/available: 24/27 (3 left)
 
 ## TODO
 - Check for I2C collisions
@@ -58,7 +58,7 @@ https://www.berrybase.de/adafruit-is31fl3741-13x9-pwm-rgb-led-matrix-treiber
 - Power at 5V (looks better) and use I2C level shifter (could be powered at 3V3, but high power consumption is bad)
 
 ## WS2812
-WS2812 (17-5V), 60mAp/LED, Protection series resistor 330R, 100-1000uF decoupling
+WS2812 (level shifted to 5V), 60mAp/LED, Protection series resistor 330R, 100-1000uF decoupling
 
 - OUT
 - 5V
