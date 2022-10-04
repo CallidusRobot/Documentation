@@ -20,7 +20,7 @@
 - I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
-- WS2812: 1 (GPIO level shifted)
+- WS2812: 1 or 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
