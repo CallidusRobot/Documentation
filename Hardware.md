@@ -9,8 +9,8 @@
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (GPIO)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
-- 5V power supply @ 2.5A: RGB-DMD, WS2812
-- 3V3 power supply @ TBDmA: Raspberry Pi Pico, RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
+- 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812
+- 3V3 power supply @ <1A: RFID, Magnetometer, WiFi, Sound-Player, VL53L3X, Motor-Driver (just logic)
 
 ## Block diagram
 ![Block diagram](Block%20diagram.png)
