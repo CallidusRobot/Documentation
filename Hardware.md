@@ -116,5 +116,9 @@ https://www.berrybase.de/sparkfun-motor-treiber-dual-tb6612fng-mit-headern
 - 8V
 
 ## Line tracker
-- Probabaly one signal pin
-- TBD
+ADC GPIO
+
+https://www.pololu.com/product/4641
+
+- Analog signal pin
+- Enable pin
