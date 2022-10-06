@@ -21,11 +21,13 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 ## Second level regulation to 3.3V
 ### Raspberry Pi Pico @ 300mA
 * Pico itself
-* WiFi Module (up to 300mA, move to linear reg?)
-
-### LDI1117-3.3U-DIO @ 1.35A
 * 30mA for RFID
 * 1mA for Magnetometer
 * 15mA for VL53L3X
 * 30mA for Line tracker
 * 2mA for Motor-Driver (just logic)
+* ~ 80mA
+
+### LDI1117-3.3U-DIO @ 1.35A
+* WiFi Module (up to 300mA)
+* maybe other (smaller) regulator?
