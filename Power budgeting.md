@@ -27,5 +27,5 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 * RFID
 * Magnetometer
 * VL53L3X
-* Line tracker
-* Motor-Driver (just logic)
+* 30mA for Line tracker
+* 2mA for Motor-Driver (just logic)
