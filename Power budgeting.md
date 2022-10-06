@@ -15,7 +15,7 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 
 ### Current sinks
 * 2A for LEDs (DMD, WS2812)
-* 1A for Sound-Player
+* 1A for Sound-Player (20mA Standby)
 * 1A for Control (Pico, WiFi, sensors)
 
 ## Second level regulation to 3.3V
@@ -24,8 +24,8 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 * WiFi Module (up to 300mA, move to linear reg?)
 
 ### LDI1117-3.3U-DIO @ 1.35A
-* RFID
-* Magnetometer
-* VL53L3X
+* 30mA for RFID
+* 1mA for Magnetometer
+* 15mA for VL53L3X
 * 30mA for Line tracker
 * 2mA for Motor-Driver (just logic)
