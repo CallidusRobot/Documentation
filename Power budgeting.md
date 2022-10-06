@@ -14,9 +14,9 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 ![image](https://user-images.githubusercontent.com/2276327/194172997-f22ad231-0863-4519-8dbf-07bdbd8925af.png)
 
 ### Current sinks
-* 2A for LEDs (DMD, WS2812)
+* 2.5A for LEDs (DMD, WS2812)
 * 1A for Sound-Player (20mA Standby)
-* 1A for Control (Pico, WiFi, sensors)
+* 0.5A for Control (Pico, WiFi, sensors)
 
 ## Second level regulation to 3.3V
 ### Raspberry Pi Pico @ 300mA
@@ -31,3 +31,4 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 ### LDI1117-3.3U-DIO @ 1.35A
 * WiFi Module (up to 300mA)
 * maybe other (smaller) regulator?
+* WiFi would benefit from switching regulator, sensors would benefit from linear one
