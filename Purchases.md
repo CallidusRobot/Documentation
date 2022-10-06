@@ -5,4 +5,5 @@
 
 ## Current cart
 
-<img width="690" alt="image" src="https://user-images.githubusercontent.com/2276327/194165424-beb3c1cf-ffe3-4097-942e-ed53e3f08916.png">
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/2276327/194324967-5a82bd0e-291c-4607-b84d-9e754ace01f6.png">
+
