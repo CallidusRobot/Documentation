@@ -7,7 +7,7 @@
 - Sound-Player (UART1)
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
-- Line tracker (GPIO)
+- Line tracker (ADC + GPIO)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
 - 3V3 pico supply @ 0.3A: WiFi
@@ -23,7 +23,7 @@
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 1 or 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
-- Line tracker: 2 (GPIO)
+- Line tracker: 2 (ADC + GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
 - WiFi Power down (via open-drain inverter)
 
