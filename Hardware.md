@@ -10,8 +10,8 @@
 - Line tracker (ADC + GPIO)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
-- 3V3 pico supply @ 0.3A: WiFi
-- 3V3 power supply @ 1A: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
+- 3V3 pico supply @ 300mA: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
+- 3V3 power supply @ 500mA: WiFi
 
 ## Block diagram
 ![Block diagram](Block%20diagram.png)
