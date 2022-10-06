@@ -28,7 +28,5 @@ S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
 * 2mA for Motor-Driver (just logic)
 * ~ 80mA
 
-### LDI1117-3.3U-DIO @ 1.35A
+### Pololu 3.3V Buck @ 500mA
 * WiFi Module (up to 300mA)
-* maybe other (smaller) regulator?
-* WiFi would benefit from switching regulator, sensors would benefit from linear one
