@@ -18,7 +18,7 @@
 
 ## Pin allocation
 - SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
-- I2C0: 2 (SDA0, SCL0)
+- I2C0: 2 (SDA0, SCL0) + 1 (VCSEL_XSHUT)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 1 or 2 (GPIO level shifted)
@@ -26,7 +26,7 @@
 - Line tracker: 2 (GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
 
-Total used/available: 24/27 (3 left)
+Total used/available: 25/27 (2 left)
 
 ## TODO
 - Check for I2C collisions
@@ -96,6 +96,7 @@ https://www.berrybase.de/pololu-vl53l3cx-time-of-flight-multi-target-distanzsens
 
 - SDA
 - SCL
+- XSHUT
 - 3V3
 
 ## Motor driver TB66FNG
