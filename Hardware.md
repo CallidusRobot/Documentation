@@ -25,8 +25,9 @@
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
+- WiFi Power down (via open-drain inverter)
 
-Total used/available: 25/27 (2 left)
+Total used/available: 26/27 (1 left)
 
 ## TODO
 - Check for I2C collisions
