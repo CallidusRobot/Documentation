@@ -21,13 +21,13 @@
 - I2C0: 2 (SDA0, SCL0) + 1 (VCSEL_XSHUT)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
-- WS2812: 1 or 2 (GPIO level shifted)
+- WS2812: 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (ADC + GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
 - WiFi Power down (via open-drain inverter)
 
-Total used/available: 26/27 (1 left)
+Total used/available: 27/27 (all used)
 
 ## TODO
 - Check for I2C collisions
