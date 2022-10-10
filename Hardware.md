@@ -13,6 +13,12 @@
 - 3V3 pico supply @ 300mA: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
 - 3V3 power supply @ 500mA: WiFi
 
+## TODO
+- Design schematics
+- Design PCB
+- Order PCB
+- Buy level-shifters, capacitors, connectors and 3V3 regulators
+
 ## Block diagram
 ![Block diagram](Block%20diagram.png)
 
@@ -28,14 +34,6 @@
 - WiFi Power down (via open-drain inverter)
 
 Total used/available: 27/27 (all used)
-
-## TODO
-- Check for I2C collisions
-- Check how much current is needed on 3V3
-- Design schematics
-- Buy level-shifters, capacitors, connectors, 5V and 3V3 regulators
-- Design PCB
-- Order PCB
 
 ## RFID
 SPI
