@@ -19,3 +19,11 @@ Zero is reset
 
 ### Statuses
 Zero is success, everything else is failure
+
+
+## Internal movement correction
+- Calibrate against accelerometer and compass
+- Use NFC to home
+
+## Movement format
+- Polar coordinates: absolute compass direction (16 bit unsigned full-scale) plus distance from home
