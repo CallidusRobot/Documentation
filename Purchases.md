@@ -2,6 +2,7 @@
 
 ## Missing
 - Connectors (Motor driver, Raspberry Pi?, correct JSTs for Motors and WiFi)
+- https://www.tme.eu/en/details/sf-prt-14425/sets-and-accessories/sparkfun-electronics-inc/prt-14425/
 
 ## Current cart
 
