@@ -14,6 +14,7 @@
 - 3V3 power supply @ 500mA: WiFi
 
 ## TODO
+- Add accelerometer to block diagram and schematics via QWIIC to magnetometer
 - Design schematics
 - Design PCB
 - Order PCB
