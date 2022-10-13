@@ -8,7 +8,7 @@
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (ADC + GPIO)
-- Personality I2C EEPROM (I2C0)
+- Personality I2C EEPROM 24FC01T (I2C0)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
 - 3V3 pico supply @ 300mA: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
@@ -81,7 +81,7 @@ UART, Firmware update passthrough
 - TX
 - 3V3
 
-## Personality I2C EEPROM
+## Personality I2C EEPROM 24FC01T
 I2C
 
 https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-technology/
