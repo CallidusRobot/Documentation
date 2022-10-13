@@ -1,6 +1,6 @@
 # Hardware
 - RFID (SPI0)
-- RGB-DMD (I2C0)
+- RGB-DMD (I2C0 level shifted)
 - WS2812 (GPIO level shifted)
 - Magnetometer (I2C0)
 - WiFi (UART0)
@@ -8,6 +8,7 @@
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (ADC + GPIO)
+- Personality I2C EEPROM (I2C0)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
 - 3V3 pico supply @ 300mA: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
@@ -78,6 +79,15 @@ UART, Firmware update passthrough
 
 - RX
 - TX
+- 3V3
+
+## Personality I2C EEPROM
+I2C
+
+https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-technology/
+
+- SDA
+- SCL
 - 3V3
 
 ## Sound Player
