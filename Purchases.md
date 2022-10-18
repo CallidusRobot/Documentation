@@ -6,7 +6,6 @@
 - https://www.tme.eu/de/details/xt30u-f/dc-steckverbinder/amass/
 - https://www.tme.eu/en/details/sf-prt-14425/sets-and-accessories/sparkfun-electronics-inc/prt-14425/
 - https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-technology/
-- XT30 PCB + Regular
 
 ## Current cart
 
