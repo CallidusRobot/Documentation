@@ -6,6 +6,7 @@
 - https://www.tme.eu/de/details/xt30u-f/dc-steckverbinder/amass/
 - https://www.tme.eu/en/details/sf-prt-14425/sets-and-accessories/sparkfun-electronics-inc/prt-14425/
 - https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-technology/
+- https://www.tme.eu/de/details/dg333j-3.5-24p13/trennbare-klemmleisten/degson-electronics/dg33j-3-5-24p-13-00ah/
 
 ## Current cart
 
