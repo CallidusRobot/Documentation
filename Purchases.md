@@ -5,7 +5,7 @@
 - eBay: 12.82€
 
 ## Missing
-- PCB
+- PCB (5€ off #SIMPLICITYWINS)
 - TME
 
 ## Missing (TME)
