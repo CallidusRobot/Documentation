@@ -1,6 +1,14 @@
 # Purchases
 
+## Done
+- EXP-Tech: 64.29€
+- eBay: 12.82€
+
 ## Missing
+- PCB
+- TME
+
+## Missing (TME)
 - Connectors (Motor driver, Raspberry Pi?, Headers)
 - https://www.tme.eu/de/details/xt30pw-m/dc-steckverbinder/amass/
 - https://www.tme.eu/de/details/xt30u-f/dc-steckverbinder/amass/
