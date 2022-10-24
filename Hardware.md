@@ -11,8 +11,8 @@
 - Personality I2C EEPROM 24FC01T (I2C0)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
-- 3V3 pico supply @ 300mA: RFID, Magnetometer, VL53L3X, Line tracker, Motor-Driver (just logic)
-- 3V3 power supply @ 500mA: WiFi
+- 3V3 pico supply @ 300mA: Motor-Driver (just logic), EEPROM, other logic ICs
+- 3V3 power supply @ 500mA: WiFi, RFID, Magnetometer, VL53L3X, Line tracker
 
 ## TODO
 - Add accelerometer to block diagram and schematics via QWIIC to magnetometer
@@ -33,7 +33,7 @@
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (ADC + GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
-- WiFi Power down (via open-drain inverter)
+- External 3V3 Power down (via open-drain inverter), if one input is freed, regulator status would be nice OR open collector join
 
 Total used/available: 27/27 (all used)
 
