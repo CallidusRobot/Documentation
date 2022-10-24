@@ -20,6 +20,7 @@
 - https://www.tme.eu/de/details/dg333j-3.5-24p13/trennbare-klemmleisten/degson-electronics/dg33j-3-5-24p-13-00ah/
 - https://www.tme.eu/de/details/os102011ms2qn1c/schiebeschalter/c-k/
 - https://www.tme.eu/de/details/apm-5a/mini-autosicherungen/optifuse/
+- https://www.tme.eu/de/details/mcp3221a0t-e_ot/a-d-wandler-integrierte-schaltungen/microchip-technology/
 
 ## Current cart
 
