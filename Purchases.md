@@ -8,6 +8,9 @@
 - PCB (5€ off #SIMPLICITYWINS)
 - TME
 
+## TODO
+- Sicherung vergrößern (5A sind u.U. zu wenig für Regulator und Motoren)
+
 ## Missing (TME)
 - Connectors (Motor driver, Raspberry Pi?, Headers)
 - https://www.tme.eu/de/details/xt30pw-m/dc-steckverbinder/amass/
