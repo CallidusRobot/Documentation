@@ -26,14 +26,14 @@
 
 ## Pin allocation
 - SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
-- I2C0: 2 (SDA0, SCL0) + 1 (VCSEL_XSHUT)
+- I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (ADC + GPIO)
 - Heartbeat LED: 1 (Pin 25 internal)
-- External 3V3 Power down (via open-drain inverter), if one input is freed, regulator status would be nice OR open collector join
+- External 3V3 power down, regulator status
 
 Total used/available: 27/27 (all used)
 
@@ -110,7 +110,6 @@ https://www.berrybase.de/pololu-vl53l3cx-time-of-flight-multi-target-distanzsens
 
 - SDA
 - SCL
-- XSHUT
 - 3V3
 
 ## Motor driver TB66FNG
