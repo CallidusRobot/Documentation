@@ -62,7 +62,7 @@ https://www.berrybase.de/adafruit-is31fl3741-13x9-pwm-rgb-led-matrix-treiber
 ## WS2812
 WS2812 (level shifted to 5V), 60 LED/m, 60mAp/LED, Protection series resistor 330R, 100-1000uF decoupling
 
-Shield: 63cm ~ 38 LEDs, 2.28Ap
+Shield: 63cm -> 37 LEDs, 2.22Ap, 3mm spaced from top of shield
 
 Cannon: TBD
 
