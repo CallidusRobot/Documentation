@@ -9,6 +9,7 @@
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (ADC + GPIO)
 - Personality I2C EEPROM 24FC01T (I2C0)
+- Battery voltage supervision ADC (I2C0)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), EEPROM, other logic ICs
@@ -47,7 +48,7 @@ https://www.berrybase.de/rfid-lesegeraet-mit-spi-schnittstelle-inkl.-karte-dongl
 - MISO
 - SCK
 - SS
-- RESET
+- RESET (Probably not needed; could be used to replace I2C ADC)
 - IRQ
 - 3V3
 
@@ -58,7 +59,7 @@ https://www.berrybase.de/adafruit-is31fl3741-13x9-pwm-rgb-led-matrix-treiber
 
 - SDA
 - SCL
-- Power at 5V (looks better) and use I2C level shifter (could be powered at 3V3, but high power consumption is bad)
+- Power at 5V (looks better) and use I2C level shifter (could be powered at 3V3, but looks better at 5V)
 
 ## WS2812
 WS2812 (level shifted to 5V), 60 LED/m, 60mAp/LED, Protection series resistor 330R, 100-1000uF decoupling
@@ -77,14 +78,14 @@ https://www.berrybase.de/adafruit-drei-achsen-magnetometer-lis3mdl
 
 - SDA
 - SCL
-- 3V3
+- 3V3E
 
 ## WiFi
 UART, Firmware update passthrough
 
 - RX
 - TX
-- 3V3
+- 3V3E
 
 ## Personality I2C EEPROM 24FC01T
 I2C
@@ -93,7 +94,18 @@ https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-te
 
 - SDA
 - SCL
-- 3V3
+- 3V3I
+
+## Battery voltage supervision ADC
+I2C
+
+Could be replaced with spare pin on Pico if e.g. NFC_RESET is dropped
+
+https://www.tme.eu/de/details/mcp3221a0t-e_ot/a-d-wandler-integrierte-schaltungen/microchip-technology/
+
+- SDA
+- SCL
+- 3V3A (via ADC-VREF on Pico)
 
 ## Sound Player
 UART @ 9600 8N1
@@ -102,7 +114,7 @@ https://www.berrybase.de/mp3-player-modul-mit-eingebautem-verstaerker
 
 - RX
 - TX
-- 3V3
+- 5V
 
 ## Multi-target sensor VL53L3X
 I2C
@@ -111,7 +123,7 @@ https://www.berrybase.de/pololu-vl53l3cx-time-of-flight-multi-target-distanzsens
 
 - SDA
 - SCL
-- 3V3
+- 3V3E
 
 ## Motor driver TB66FNG
 PWM GPIO
@@ -125,7 +137,7 @@ https://www.berrybase.de/sparkfun-motor-treiber-dual-tb6612fng-mit-headern
 - BIN1 (DIR2)
 - BIN2 (DIR2)
 - STBY
-- 3V3
+- 3V3I
 - 8V
 
 ## Line tracker
@@ -135,3 +147,4 @@ https://www.pololu.com/product/4641
 
 - Analog signal pin
 - Enable pin
+- 3V3E
