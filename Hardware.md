@@ -15,11 +15,12 @@
 - 3V3 power supply @ 500mA: WiFi, RFID, Magnetometer, VL53L3X, Line tracker
 
 ## TODO
-- Add accelerometer to block diagram and schematics via QWIIC to magnetometer
+- (Add accelerometer to block diagram and schematics via QWIIC to magnetometer)
+- Add EEPROM, VBAT ADC and 3V3 regulator supervision (status, off) to block diagram
 - Design schematics
 - Design PCB
+- Order TME parts
 - Order PCB
-- Buy level-shifters, capacitors, connectors and 3V3 regulators
 
 ## Block diagram
 ![Block diagram](Block%20diagram.png)
