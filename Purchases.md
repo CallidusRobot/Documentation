@@ -21,6 +21,7 @@
 - https://www.tme.eu/de/details/0297010.wxnv/mini-autosicherungen/littelfuse/
 - https://www.tme.eu/de/details/029707.5wxnv/mini-autosicherungen/littelfuse/
 - https://www.tme.eu/de/details/smd0805-2k2/widerstande-smd-0805/royal-ohm/0805s8j0222t5e/
+- https://www.tme.eu/de/details/tc4s66f/analoge-multiplexer-und-schalter/toshiba/tc4s66f-lf/
 
 ## Current cart
 
