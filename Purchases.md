@@ -21,6 +21,7 @@
 - https://www.tme.eu/de/details/os102011ms2qn1c/schiebeschalter/c-k/
 - https://www.tme.eu/de/details/apm-5a/mini-autosicherungen/optifuse/
 - https://www.tme.eu/de/details/mcp3221a0t-e_ot/a-d-wandler-integrierte-schaltungen/microchip-technology/
+- https://www.tme.eu/de/details/smd0805-2k2/widerstande-smd-0805/royal-ohm/0805s8j0222t5e/
 
 ## Current cart
 
