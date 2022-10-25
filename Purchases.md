@@ -8,9 +8,6 @@
 - PCB (5€ off #SIMPLICITYWINS)
 - TME
 
-## TODO
-- Sicherung vergrößern (5A sind u.U. zu wenig für Regulator und Motoren)
-
 ## Missing (TME)
 - Dupont Male 1x20/1x40
 - Dupont Female 1x20 (2 per board)
@@ -21,8 +18,8 @@
 - https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-technology/
 - https://www.tme.eu/de/details/dg333j-3.5-24p13/trennbare-klemmleisten/degson-electronics/dg33j-3-5-24p-13-00ah/
 - https://www.tme.eu/de/details/os102011ms2qn1c/schiebeschalter/c-k/
-- https://www.tme.eu/de/details/apm-5a/mini-autosicherungen/optifuse/
-- https://www.tme.eu/de/details/mcp3221a0t-e_ot/a-d-wandler-integrierte-schaltungen/microchip-technology/
+- https://www.tme.eu/de/details/0297010.wxnv/mini-autosicherungen/littelfuse/
+- https://www.tme.eu/de/details/029707.5wxnv/mini-autosicherungen/littelfuse/
 - https://www.tme.eu/de/details/smd0805-2k2/widerstande-smd-0805/royal-ohm/0805s8j0222t5e/
 
 ## Current cart
