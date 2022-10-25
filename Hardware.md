@@ -9,7 +9,6 @@
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (ADC + GPIO)
 - Personality I2C EEPROM 24FC01T (I2C0)
-- Battery voltage supervision ADC (I2C0)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
 - 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), EEPROM, other logic ICs
@@ -27,13 +26,14 @@
 ![Block diagram](Block%20diagram.png)
 
 ## Pin allocation
-- SPI0: 3 (MOSI0, MISO0, SCK0) + 1 (RFID_SS) + opt. 2 (RFID_RESET, RFID_IRQ)
+- SPI0: 3 (MOSI0, MISO0, SCK0) + 2 (RFID_SS, RFID_IRQ)
 - I2C0: 2 (SDA0, SCL0)
 - UART0: 2 (RX0, TX0)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (ADC + GPIO)
+- Battery supervision: 1 (ADC)
 - Heartbeat LED: 1 (Pin 25 internal)
 - External 3V3 power down, regulator status
 
@@ -68,7 +68,8 @@ Shield: 63cm -> 37 LEDs, 2.22Ap, 3mm spaced from top of shield
 
 Cannon: TBD
 
-- OUT
+- OUT1
+- OUT2
 - 5V
 
 ## Magnetometer
@@ -95,17 +96,6 @@ https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-te
 - SDA
 - SCL
 - 3V3I
-
-## Battery voltage supervision ADC
-I2C
-
-Could be replaced with spare pin on Pico if e.g. NFC_RESET is dropped
-
-https://www.tme.eu/de/details/mcp3221a0t-e_ot/a-d-wandler-integrierte-schaltungen/microchip-technology/
-
-- SDA
-- SCL
-- 3V3A (via ADC-VREF on Pico)
 
 ## Sound Player
 UART @ 9600 8N1
@@ -146,5 +136,5 @@ ADC GPIO
 https://www.pololu.com/product/4641
 
 - Analog signal pin
-- Enable pin
+- Control pin
 - 3V3E
