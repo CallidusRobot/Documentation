@@ -14,3 +14,4 @@
 - Zeitmangel
 - Platzmangel in allen Richtungen
 - Unbekannt, ob original Lipo von den Abmessungen und vom Strom her ausreicht
+- Windows Update.
