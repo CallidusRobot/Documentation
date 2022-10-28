@@ -3,16 +3,16 @@
 - RGB-DMD (I2C0 level shifted)
 - WS2812 (GPIO level shifted)
 - Magnetometer (I2C0)
-- WiFi (UART0)
+- WiFi with power control (UART0 + GPIO)
 - Sound-Player (UART1)
 - Multi-target sensor VL53L3X (I2C0)
 - Motor driver TB66FNG (GPIO + PWM)
 - Line tracker (ADC + GPIO)
 - Personality I2C EEPROM 24FC01T (I2C0)
+- Battery voltage measurement (ADC2)
 - Battery supply: 5V and 3V3 regulators, Motor-Driver (motor power)
-- 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player
-- 3V3 pico supply @ 300mA: Motor-Driver (just logic), EEPROM, other logic ICs
-- 3V3 power supply @ 500mA: WiFi, RFID, Magnetometer, VL53L3X, Line tracker
+- 5V power supply @ 2.5A: Raspberry Pi Pico, RGB-DMD, WS2812, Sound-Player, WiFi
+- 3V3 pico supply @ 300mA: Motor-Driver (just logic), RFID, Magnetometer, VL53L3X, Line tracker, EEPROM, other logic ICs
 
 ## TODO
 - Add EEPROM, VBAT ADC and WiFi power control (status, off) to block diagram
