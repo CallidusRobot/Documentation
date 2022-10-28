@@ -15,7 +15,7 @@
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), RFID, Magnetometer, VL53L3X, Line tracker, EEPROM, other logic ICs
 
 ## TODO
-- Add EEPROM, VBAT ADC and WiFi power control (status, off) to block diagram
+- Make list of GPIO allocation
 - Print replacement arrow label for WiFi header on PCB
 - Assemble PCBs
 - Make custom cables
