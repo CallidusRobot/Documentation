@@ -26,14 +26,13 @@
 ## Pin allocation
 - SPI0: 3 (MOSI0, MISO0, SCK0) + 2 (RFID_SS, RFID_IRQ)
 - I2C0: 2 (SDA0, SCL0)
-- UART0: 2 (RX0, TX0)
+- UART0: 2 (RX0, TX0) + 2 (WIFI_ENABLE, WIFI_FAULT)
 - UART1: 2 (RX1, TX1) + 1 (PLAYER_BUSY)
 - WS2812: 2 (GPIO level shifted)
 - Motor driver: 2 (PWM) + 5 (GPIO)
 - Line tracker: 2 (ADC + GPIO)
 - Battery supervision: 1 (ADC)
 - Heartbeat LED: 1 (Pin 25 internal)
-- External 3V3 power down, regulator status
 
 Total used/available: 27/27 (all used)
 
@@ -77,14 +76,16 @@ https://www.berrybase.de/adafruit-drei-achsen-magnetometer-lis3mdl
 
 - SDA
 - SCL
-- 3V3E
+- 3V3
 
 ## WiFi
 UART, Firmware update passthrough
 
 - RX
 - TX
-- 3V3E
+- ENABLE
+- FAULT
+- 3V3
 
 ## Personality I2C EEPROM 24FC01T
 I2C
@@ -93,7 +94,7 @@ https://www.tme.eu/de/details/24fc01t-i_ot/serielle-eeprom-speicher/microchip-te
 
 - SDA
 - SCL
-- 3V3I
+- 3V3
 
 ## Sound Player
 UART @ 9600 8N1
@@ -111,7 +112,7 @@ https://www.berrybase.de/pololu-vl53l3cx-time-of-flight-multi-target-distanzsens
 
 - SDA
 - SCL
-- 3V3E
+- 3V3
 
 ## Motor driver TB66FNG
 PWM GPIO
@@ -125,7 +126,7 @@ https://www.berrybase.de/sparkfun-motor-treiber-dual-tb6612fng-mit-headern
 - BIN1 (DIR2)
 - BIN2 (DIR2)
 - STBY
-- 3V3I
+- 3V3
 - 8V
 
 ## Line tracker
@@ -135,4 +136,4 @@ https://www.pololu.com/product/4641
 
 - Analog signal pin
 - Control pin
-- 3V3E
+- 3V3
