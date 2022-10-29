@@ -15,7 +15,6 @@
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), RFID, Magnetometer, VL53L3X, Line tracker, EEPROM, other logic ICs
 
 ## TODO
-- Make list of GPIO allocation
 - Print replacement arrow label for WiFi header on PCB
 - Assemble PCBs
 - Make custom cables
@@ -35,6 +34,38 @@
 - Heartbeat LED: 1 (Pin 25 internal)
 
 Total used/available: 27/27 (all used)
+
+## Pico Pinout
+- GP0: OUT: PWMB
+- GP1: OUT: BI2
+- GP2: OUT: BI1
+- GP3: OUT: STBY
+- GP4: OUT: AI1
+- GP5: OUT: AI2
+- GP6: OUT: MOTOR_PWM_A
+- GP7: INP: RFID_IRQ, probably unused, int-pullup or int-oulldown as configured, could be reset output instead
+- GP8: OUT: WIFI_TX
+- GP9: INP: WIFI_RX
+- GP10: OUT: RFID_CK
+- GP11: INP: RFIX_RX, int-pulldown
+- GP12: OUT: RFID_TX
+- GP13: OUT: RFID_CD
+- GP14: INP: WIFI_FAULT, active-low, int-pullup
+- GP15: OUT: WIFI_ENABLE, active-high
+- GP16: OUT: SOUND_TX
+- GP17: INP: SOUND_RX, int-pullup
+- GP18: OUT: WS2812_A
+- GP19: OUT: WS2812_B
+- GP20: BID: I2C0_SDA
+- GP21: OUT: I2C0_SCL
+- GP22: INP: SOUND_BUSY, int-pullup, high = idle, low = playing
+- GP23: OUT: 3V3 SMPS power save mode
+- GP24: INP: VBUS sense (is USB plugged in)
+- GP25: OUT: Heartbeat LED
+- GP26: ADC: LINE_REFLECTANCE
+- GP27: OUT: LINE_ENABLE
+- GP28: ADC: VBAT minus drop over U3, then divided
+- GP29: ADC: VSYS/3 = 5V SMPS / 3
 
 ## RFID
 SPI
