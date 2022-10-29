@@ -36,13 +36,13 @@
 Total used/available: 27/27 (all used)
 
 ## Pico Pinout
-- GP0: OUT: PWMB
-- GP1: OUT: BI2
-- GP2: OUT: BI1
-- GP3: OUT: STBY
-- GP4: OUT: AI1
-- GP5: OUT: AI2
-- GP6: OUT: MOTOR_PWM_A
+- GP0: OUT: MOTOR_PWMB
+- GP1: OUT: MOTOR_BI2
+- GP2: OUT: MOTOR_BI1
+- GP3: OUT: MOTOR_STBY, active-low
+- GP4: OUT: MOTOR_AI1
+- GP5: OUT: MOTOR_AI2
+- GP6: OUT: MOTOR_PWMA
 - GP7: INP: RFID_IRQ, probably unused, int-pullup or int-oulldown as configured, could be reset output instead
 - GP8: OUT: WIFI_TX
 - GP9: INP: WIFI_RX
