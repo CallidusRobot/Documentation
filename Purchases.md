@@ -1,5 +1,5 @@
 # Purchases
-Remaining: Accelerometers
+All done!
 
 ## Done
 - EXP-Tech: 64.29€
@@ -7,6 +7,7 @@ Remaining: Accelerometers
 - TME: 73.97€
 - AISLER: 38.27€
 - Modellbaucenter Bochum: 35.26€ (Akkus)
+- Berrybase: 48.30€ (Accelerometer)
 
 ## Sum
-239.11€
+287.41€
