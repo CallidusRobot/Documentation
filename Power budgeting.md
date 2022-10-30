@@ -5,7 +5,7 @@
 
 ### Current sinks
 * ~2,7A buck to 5V
-* TBD A for motors
+* 0.2-0.5A per motor = 1-2A total
 
 ## First level regulation to 5V
 S13V30F5 Boost-Buck 2.8-22V input voltage, 4A sustained output current
