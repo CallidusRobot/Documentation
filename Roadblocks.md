@@ -16,3 +16,4 @@
 - Unbekannt, ob original Lipo von den Abmessungen und vom Strom her ausreicht
 - Windows Update.
 - Vertauschte Symbole auf der PCB
+- Originale Akkus liefern nur 400mA (2A peak), 2.5A continuous und 5A peak sind aber mindestens erforderlich
