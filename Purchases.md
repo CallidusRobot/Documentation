@@ -7,7 +7,8 @@ All done!
 - TME: 73.97€
 - AISLER: 38.27€
 - Modellbaucenter Bochum: 35.26€ (Akkus)
+- Conrad: 36.94€ (Billiges 2S Netzladeteil)
 - Berrybase: 48.30€ (Accelerometer)
 
 ## Sum
-287.41€
+324.35€
