@@ -44,7 +44,7 @@ Total used/available: 27/27 (all used)
 - GP4: OUT: MOTOR_AI1
 - GP5: OUT: MOTOR_AI2
 - GP6: OUT: MOTOR_PWMA
-- GP7: INP: RFID_IRQ, probably unused, int-pullup or int-oulldown as configured, could be reset output instead
+- GP7: INP: RFID_IRQ, probably unused, int-pullup or int-pulldown as configured, could be reset output instead
 - GP8: OUT: WIFI_TX
 - GP9: INP: WIFI_RX
 - GP10: OUT: RFID_CK
