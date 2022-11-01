@@ -48,7 +48,7 @@ Total used/available: 27/27 (all used)
 - GP8: OUT: WIFI_TX
 - GP9: INP: WIFI_RX
 - GP10: OUT: RFID_CK
-- GP11: INP: RFIX_RX, int-pulldown
+- GP11: INP: RFID_RX, int-pulldown
 - GP12: OUT: RFID_TX
 - GP13: OUT: RFID_CD
 - GP14: INP: WIFI_FAULT, active-low, int-pullup
