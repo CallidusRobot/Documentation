@@ -15,6 +15,7 @@
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), RFID, Magnetometer, VL53L3X, Line tracker, EEPROM, other logic ICs
 
 ## TODO
+- Check, if RFID is really compatible, else buy RFID cards
 - Print replacement arrow label for WiFi header on PCB
 - Assemble PCBs
 - Make custom cables
