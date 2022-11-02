@@ -72,6 +72,8 @@ Total used/available: 27/27 (all used)
 ## RFID
 SPI
 
+The sensor is absolute garbage. Minimum read distance is 2cm. Reliable read distance is 1cm.
+
 https://www.berrybase.de/rfid-lesegeraet-mit-spi-schnittstelle-inkl.-karte-dongle
 
 - MOSI
