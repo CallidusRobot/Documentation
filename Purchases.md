@@ -3,6 +3,7 @@ All done!
 
 ## Done
 - AISLER: 38.27€
+- AZ-Delivery: 7.49€
 
 ## Done with invoice
 - EXP-Tech: 64.29€
@@ -13,4 +14,4 @@ All done!
 - BerryBase: 48.30€ (Accelerometer)
 
 ## Sum
-324.35€
+331.84€
