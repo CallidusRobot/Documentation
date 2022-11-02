@@ -80,8 +80,7 @@ https://www.berrybase.de/rfid-lesegeraet-mit-spi-schnittstelle-inkl.-karte-dongl
 - MISO
 - SCK
 - SS
-- RESET (Probably not needed; could be used to replace I2C ADC)
-- IRQ
+- IRQ/RESET
 - 3V3
 
 ## RGB-DMD
