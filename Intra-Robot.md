@@ -27,3 +27,8 @@ Zero is success, everything else is failure
 
 ## Movement format
 - Polar coordinates: absolute compass direction (16 bit unsigned full-scale) plus distance from home
+
+## Configuration messages
+
+## RFID message
+- Depending on RFID configuration returns number of sectors starting at zero
