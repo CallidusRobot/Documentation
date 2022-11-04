@@ -32,3 +32,4 @@ Zero is success, everything else is failure
 
 ## RFID message
 - Depending on RFID configuration returns number of sectors starting at zero
+- Only cards with a SAK of 08 (MIFARE 1K) are supported
