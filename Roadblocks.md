@@ -19,3 +19,5 @@
 - Originale Akkus liefern nur 400mA (2A peak), 2.5A continuous und 5A peak sind aber mindestens erforderlich
 - Der RFID-Reader ist mit den gekauften Tags nicht kompatibel und ist auch abgesehen davon absoluter Schrott
 - Noch mehr vertauschte Symbole auf der PCB
+- RFID-Leser braucht <2cm Leseabstand
+- AZ-Delivery weigert sich eine korrekte Rechnung auszustellen
