@@ -15,7 +15,7 @@
 - 3V3 pico supply @ 300mA: Motor-Driver (just logic), RFID, Magnetometer, VL53L3X, Line tracker, EEPROM, other logic ICs
 
 ## TODO
-- Add accelerometer to diagram and this document
+- Add accelerometer to this document
 - Check, if RFID is really compatible, else buy RFID cards
 - Print replacement arrow label for WiFi header on PCB
 - Assemble PCBs
@@ -72,7 +72,7 @@ Total used/available: 27/27 (all used)
 ## RFID
 SPI
 
-The sensor is absolute garbage. Minimum read distance is 2cm. Reliable read distance is 1cm.
+The sensor is absolute garbage. Minimum read distance is 2cm. Reliable read distance is 1cm. UUID detection distance is 4cm.
 
 https://www.berrybase.de/rfid-lesegeraet-mit-spi-schnittstelle-inkl.-karte-dongle
 
