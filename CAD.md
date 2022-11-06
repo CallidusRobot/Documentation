@@ -2,10 +2,8 @@
 ## TODO
 - Cannon/Camera/ToF assembly
 - Top cover with DMD
-- Battery holder
-- Speaker holder
 - RFID/Line sensor assembly
-- Inner frame with PCB, accelerometer and magnetometer mounts
+- Inner frame with PCB, accelerometer and magnetometer mounts, speaker holder and battery holder
 
 ## Remarks
 - Magnetometer and accelerometer should be on-axis and away from electric/magnetic fields
