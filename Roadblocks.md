@@ -21,3 +21,6 @@
 - Noch mehr vertauschte Symbole auf der PCB
 - RFID-Leser braucht <2cm Leseabstand
 - AZ-Delivery weigert sich eine korrekte Rechnung auszustellen
+- Deutsche Post
+- Zeitmangel
+- Erster Routingfehler in der PCB
