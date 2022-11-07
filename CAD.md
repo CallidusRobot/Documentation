@@ -1,9 +1,8 @@
 # CAD
-## TODO
-- Cannon/Camera/ToF assembly
-- Top cover with DMD, accelerometer and magnetometer mounts
+## TODO design
+- Cannon diffusor
 - RFID/Line sensor assembly
-- Inner frame with PCB, speaker holder and battery holder
+- Camera/ToF assembly
 
 ## Remarks
 - Magnetometer and accelerometer should be on-axis and away from electric/magnetic fields
@@ -13,6 +12,12 @@
 - RFID should be mounted as far away from ground as possible
 - Speaker could be part of inner frame assembly (pointing itself down) towards the edge and be slotted in rails, before the frame is installed
 - Battery could also be part of the inner frame assembly by being put in a well, where it just rests (perhaps with top cover)
+
+## TODO print
+- Top cover with DMD, accelerometer and magnetometer mounts (2x)
+- Inner frame with PCB, speaker holder and battery holder (2x)
+- Cannon base (1x)
+- Cannon mount (2x)
 
 ## Done
 - Outer frame
