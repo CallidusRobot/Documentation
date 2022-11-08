@@ -14,8 +14,8 @@
 - Battery could also be part of the inner frame assembly by being put in a well, where it just rests (perhaps with top cover)
 
 ## TODO: Print
-- Top cover with DMD, accelerometer and magnetometer mounts (2x)
-- Inner frame with PCB, speaker holder and battery holder (2x)
+- Top cover with DMD, accelerometer and magnetometer mounts (1x)
+- Inner frame with PCB, speaker holder and battery holder (1x)
 - Cannon base (1x)
 - WS2812 Cannon (2x)
 
