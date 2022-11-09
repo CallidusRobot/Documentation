@@ -15,6 +15,7 @@
 - This forms the lower part of the voltage divider to ground
 
 ## U2 VCC fix
-![grafik](https://user-images.githubusercontent.com/2276327/200915252-758bc5fe-7f1c-4e91-b0d9-88175599ad9d.png)
+![grafik](https://user-images.githubusercontent.com/2276327/200917748-4fef5717-1962-4cd3-a04b-cf5b16bd0990.png)
 
-Add a connection between C3 (right) and Line 3V (+)
+
+Add a connection between C3 (right) and R7 (right)
