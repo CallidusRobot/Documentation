@@ -6,6 +6,7 @@
 - Battery monitoring (VBAT) voltage-divider is incorrectly wired (see fix, fixed in V15)
 - Maximum input voltage is 18V, not 20V as printed on the PCB (fixed in V15)
 - U2 VCC has no connection to 3V3 (see fix)
+- U3 has no IOFF and therefore feeds back 3V7 into 3V3 when there is no 3V3 regulator
 
 ## Battery monitoring fix
 ![grafik](https://user-images.githubusercontent.com/2276327/200320227-e426e829-cfee-409f-a398-1cd14c8d96ec.png)
