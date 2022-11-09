@@ -17,7 +17,7 @@
 ## TODO: Print
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
 - Cannon base (1x)
-- WS2812 Cannon (2x)
+- WS2812 Cannon (1x)
 
 ## Done
 - Outer frame
