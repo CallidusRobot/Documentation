@@ -23,4 +23,6 @@
 - AZ-Delivery weigert sich eine korrekte Rechnung auszustellen
 - Deutsche Post
 - Zeitmangel
-- Erster Routingfehler in der PCB
+- Erster Routingfehler in der PCB (VBAT divider)
+- Zweiter Routingfehler in der PCB (U2 VCC)
+- 3V3 auch ohne Regulator auf 3.7V?!
