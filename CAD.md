@@ -3,6 +3,7 @@
 - Cannon diffusor
 - RFID/Line sensor assembly
 - Camera/ToF assembly
+- Battery holder
 
 ## Remarks
 - Magnetometer and accelerometer should be on-axis and away from electric/magnetic fields
@@ -15,7 +16,6 @@
 
 ## TODO: Print
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
-- Inner frame with PCB, speaker holder and battery holder (1x)
 - Cannon base (1x)
 - WS2812 Cannon (2x)
 
@@ -23,3 +23,4 @@
 - Outer frame
 - Diffusor
 - Triggers (Home and Power-ups)
+- Inner frame with PCB and speaker holder
