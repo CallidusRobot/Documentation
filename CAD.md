@@ -1,6 +1,5 @@
 # CAD
 ## TODO: Design
-- Cannon diffusor
 - RFID/Line sensor assembly
 - Camera/ToF assembly
 - Battery holder
@@ -18,6 +17,7 @@
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
 - Cannon base (1x)
 - WS2812 Cannon (1x)
+- Cannon diffusor (3x)
 
 ## Done
 - Outer frame
