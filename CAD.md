@@ -15,7 +15,7 @@
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
 - Cannon base (1x)
 - WS2812 Cannon (1x)
-- Camera/ToF assembly (3x)
+- Camera/ToF assembly (1x)
 - Motor/RFID/Line sensor assembly (1x)
 
 ## Done
