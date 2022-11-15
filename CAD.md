@@ -12,7 +12,7 @@
 - Battery could also be part of the inner frame assembly by being put in a well, where it just rests (perhaps with top cover)
 
 ## TODO: Print
-- Speaker holder (3x)
+- Battery holder (3x after design)
 
 ## Done
 - Outer frame
@@ -25,3 +25,4 @@
 - Motor/RFID/Line sensor assembly
 - Top cover with DMD, accelerometer and magnetometer mounts
 - WS2812 Cannon
+- Speaker holder
