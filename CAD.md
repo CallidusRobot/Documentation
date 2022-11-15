@@ -13,7 +13,6 @@
 
 ## TODO: Print
 - WS2812 Cannon (1x)
-- Top cover with DMD, accelerometer and magnetometer mounts (1x)
 - Speaker holder (3x)
 
 ## Done
@@ -25,3 +24,4 @@
 - Camera/ToF assembly
 - Cannon base
 - Motor/RFID/Line sensor assembly
+- Top cover with DMD, accelerometer and magnetometer mounts
