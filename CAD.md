@@ -14,7 +14,7 @@
 ## TODO: Print
 - Cannon base (1x)
 - WS2812 Cannon (1x)
-- Motor/RFID/Line sensor assembly (1x)
+- Top cover with DMD, accelerometer and magnetometer mounts (1x)
 
 ## Done
 - Outer frame
@@ -23,4 +23,4 @@
 - Inner frame with PCB and speaker holder
 - Cannon diffusor
 - Camera/ToF assembly
-- Top cover with DMD, accelerometer and magnetometer mounts
+- Motor/RFID/Line sensor assembly
