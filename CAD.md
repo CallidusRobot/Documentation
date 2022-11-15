@@ -14,12 +14,13 @@
 ## TODO: Print
 - WS2812 Cannon (1x)
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
+- Speaker holder (3x)
 
 ## Done
 - Outer frame
 - Diffusor
 - Triggers (Home and Power-ups)
-- Inner frame with PCB and speaker holder
+- Inner frame with PCB
 - Cannon diffusor
 - Camera/ToF assembly
 - Cannon base
