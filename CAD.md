@@ -12,7 +12,6 @@
 - Battery could also be part of the inner frame assembly by being put in a well, where it just rests (perhaps with top cover)
 
 ## TODO: Print
-- WS2812 Cannon (1x)
 - Speaker holder (3x)
 
 ## Done
@@ -25,3 +24,4 @@
 - Cannon base
 - Motor/RFID/Line sensor assembly
 - Top cover with DMD, accelerometer and magnetometer mounts
+- WS2812 Cannon
