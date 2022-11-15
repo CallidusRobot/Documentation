@@ -12,7 +12,6 @@
 - Battery could also be part of the inner frame assembly by being put in a well, where it just rests (perhaps with top cover)
 
 ## TODO: Print
-- Cannon base (1x)
 - WS2812 Cannon (1x)
 - Top cover with DMD, accelerometer and magnetometer mounts (1x)
 
@@ -23,4 +22,5 @@
 - Inner frame with PCB and speaker holder
 - Cannon diffusor
 - Camera/ToF assembly
+- Cannon base
 - Motor/RFID/Line sensor assembly
