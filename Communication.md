@@ -30,6 +30,17 @@ Zero is success, everything else is failure
 
 ## Configuration messages
 
+## Trigger message
+There must be a way to trigger the scheduled DMD/Shield/Cannon/Motor updates quickly and on all robots at the same time
+
+- Delay in ms after which to trigger (can be zero)
+- Bitfield of what updates to perform after delay
+  - Ping (simply respond after delay)
+  - Motor
+  - DMD
+  - Shield
+  - Cannon
+
 ## DMD message
 - Number of palette entries (usable entries start at one, zero is transparent)
   - Palette entries in RGB565
