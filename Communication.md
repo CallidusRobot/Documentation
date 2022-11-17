@@ -1,8 +1,8 @@
-# Intra-Robot Kommunikation
+# Communication
 
-Paket darf höchstens 100ms übertragen werden. Danach Reset und neues Paket.
+Timeout for each packet of 100ms. Reset with packet drop after timeout.
 
-## Pakete
+## Packets
 - 0x55
 - Packet-ID (1B)
 - Type (1B)
