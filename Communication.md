@@ -30,12 +30,27 @@ Zero is success, everything else is failure
 
 ## Configuration messages
 
+## Ping message
+- Source of the ping
+  - WIFI/Camera
+  - Server
+  - Controller
+- Value to return
+
 ## Trigger message
 There must be a way to trigger the scheduled DMD/Shield/Cannon/Motor updates quickly and on all robots at the same time
 
 - Delay in ms after which to trigger (can be zero)
 - Bitfield of what updates to perform after delay
-  - Ping (simply respond after delay)
+  - Motor
+  - DMD
+  - Shield
+  - Cannon
+
+## Reset message
+Resets the scheduled data for the particular peripheral. Also treats transparency as black for the next respective update.
+
+- Bitfield of what to reset
   - Motor
   - DMD
   - Shield
@@ -49,8 +64,12 @@ There must be a way to trigger the scheduled DMD/Shield/Cannon/Motor updates qui
   - Origin x of the area to update
   - Origin y of the area to update
   - Width of the area to update
-  - Height of the area to update 
-  - Frame data with one byte per pixel
+  - Height of the area to update
+  - Palettized frame data with one byte per pixel
+
+## Shield message
+- Number of palette entries (usable entries start at one, zero is transparent)
+- 
 
 ## RFID message
 - Depending on RFID configuration returns a number of sectors starting at zero
