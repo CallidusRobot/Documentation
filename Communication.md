@@ -69,7 +69,19 @@ Resets the scheduled data for the particular peripheral. Also treats transparenc
 
 ## Shield message
 - Number of palette entries (usable entries start at one, zero is transparent)
-- 
+  - Palette entries
+    - Hue
+    - Saturation
+- Frame duration in ms
+- Number of frames
+  - Start position of the first LED to update
+  - Number of LEDs to update
+  - Palettized frame data with two bytes per LED
+    - Palette index
+    - Brightness value
+
+## Cannon message
+The same as the shield message.
 
 ## RFID message
 - Depending on RFID configuration returns a number of sectors starting at zero
